@@ -1,2 +1,2 @@
 # ProjectEuler
-My Project Euler solutions.
+You can find my Project Euler solutions in this repository.
