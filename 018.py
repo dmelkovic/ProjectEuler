@@ -19,5 +19,4 @@ rows = len(pyramid)
 for row in range(rows-2,-1,-1):
     for i in range(row+1):
         pyramid[row][i] = pyramid[row][i] + max(pyramid[row+1][i], pyramid[row+1][i+1])
-print(pyramid[0][0])    
-        
+print(pyramid[0][0])
