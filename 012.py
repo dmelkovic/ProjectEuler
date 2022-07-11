@@ -24,4 +24,3 @@ n=1
 while number_of_divisors(n*(n+1)//2)<500:
     n+=1
 print(n*(n+1)//2)
-
