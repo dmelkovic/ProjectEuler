@@ -41,4 +41,4 @@ def product(x,y,vx,vy):
 m = 0
 for i in range(20):
     m = max(m, product(0,i,0,1), product(i,0,1,0), product(0,i,1,1), product(i,0,1,1), product(19,i,-1,1), product(i,0,-1,1))
-print(m)    
+print(m)
